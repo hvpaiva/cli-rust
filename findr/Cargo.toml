@@ -1,0 +1,18 @@
+[package]
+name = "findr"
+version = "0.1.0"
+edition = "2021"
+authors = ["Highlander Paiva <contact@hvpaiva.dev"]
+
+[dependencies]
+anyhow = "1.0.92"
+clap = { version = "4.5.20", features = ["derive"] }
+exitcode = "1.1.2"
+regex = "1.11.1"
+walkdir = "2.5.0"
+
+[dev-dependencies]
+assert_cmd = "2.0.16"
+predicates = "3.1.2"
+pretty_assertions = "1.4.1"
+rand = "0.8.5"
