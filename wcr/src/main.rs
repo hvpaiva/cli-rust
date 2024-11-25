@@ -251,6 +251,7 @@ mod tests {
         vec![show_all, show_lwb, show_l]
     }
 
+    #[derive(Debug)]
     struct ShowFixture {
         filename: String,
         args: Args,
